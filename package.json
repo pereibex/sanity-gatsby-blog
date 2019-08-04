@@ -18,8 +18,10 @@
     "@sanity/cli": "^0.140.17",
     "lerna": "^3.13.1"
   },
-  "dependencies": {
-    "@sanity/cli": "^0.140.17",
-    "lerna": "^3.13.1"
-  }
+  "peerDependencies": {
+    "gatsby": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
 }
