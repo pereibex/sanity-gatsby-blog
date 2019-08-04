@@ -4,7 +4,6 @@
   "name": "sanity-gatsby-blog",
   "version": "1.0.0",
   "scripts": {
-    "start": "lerna run build --parallel",
     "build": "lerna run build --parallel",
     "dev": "lerna run dev --parallel",
     "format": "lerna run format",
@@ -14,19 +13,6 @@
     "lint": "lerna run lint",
     "postinstall": "lerna bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@sanity/base": "0.134.0",
-    "@sanity/components": "0.134.0",
-    "@sanity/core": "0.134.0",
-    "@sanity/default-layout": "0.134.0",
-    "@sanity/default-login": "0.134.0",
-    "@sanity/desk-tool": "0.134.0",
-    "@sanity/vision": "0.134.0",
-    "prop-types": "15.6.2",
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "react-icons": "3.1.0"
   },
   "devDependencies": {
     "@sanity/cli": "^0.140.17",
