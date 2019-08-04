@@ -13,7 +13,7 @@
     "postinstall": "lerna bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
+  "dependencies": {
     "@sanity/cli": "^0.140.17",
     "lerna": "^3.13.1"
   }
